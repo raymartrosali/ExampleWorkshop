@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="a.css"/>
+    </head>
+    <body>
+        <h1>Heller</h1>
+        <h2>Coffee Orders</h2>
+        <ul id="orders">
+        </ul>
+        <br>
+        <h2>Add another order:</h2>
+        <p>name: <input type="text" id="name"></p>
+        <p>drink: <input type="text" id="drink"></p>
+        <button id="add-order"> Add This!</button>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.js"
+                integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+                crossorigin="anonymous">
+        </script><!--jQuery-->
+        <script src="a.js"></script>
+    </body>
+</html>
+
+<!--
+Notes:
+AJAX will be used to access the API's
+AJAX: Asynchronous JavaScrip and XML (but now JSON is being used instead of XML)
+API: Application programming interface
+
+GET Request:
+
+
+
+-----------------------------------
+From Backend Team
+API
+---
+Get All Orders:
+GET request to /api/orders
+Sample Response:
+[
+    {
+        id: 1,
+        name: 'James',
+        Drink: 'Coffee'
+    },
+    {
+        id: 2,
+        name: 'John',
+        Drink: 'Latte'
+    },
+]
+
+
+-->
